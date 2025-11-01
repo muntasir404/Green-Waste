@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="log.css">
+</head>
+
+<body>
+
+    <!-- Registration form -->
+    <form id="registerForm">
+        <div class="form">
+            <!-- Name field -->
+            <label>Enter Name</label>
+            <input type="text" id="name" placeholder="Name" required>
+
+            <!-- Email field -->
+            <label>Email</label>
+            <input type="email" id="email" placeholder="Email" required>
+
+            <!-- Password field -->
+            <label>Password</label>
+            <input type="password" id="password" placeholder="Enter Password" minlength="8" required>
+        </div>
+
+        <div class="log">
+            <!-- Sign in button -->
+            <button type="submit" id="submitBtn">Sign in</button>
+
+            <!-- Already have an account? Login -->
+            <div>
+                Already have an account?
+                <a href="index.html">Log in</a>
+            </div>
+        </div>
+    </form>
+
+    <!-- JS file link -->
+    <script src="reg.js"></script>
+</body>
+
+</html>
